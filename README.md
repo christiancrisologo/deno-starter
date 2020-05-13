@@ -1,17 +1,15 @@
-# Deno Boilerplate
+# Overview
 
-This is a very basic Deno Boilerplate.
+ Just a basic Deno app, using the the boliderplate from  https://github.com/lampewebdev/deno-boilerplate
 
-It does not much. The only goal is to not have to setup and created a basic setup.
-
-**Feel free to open pull requests!**
+ 
 
 ## basic usage
-
-This boilerplate uses `make` to run the Deno commands.
-It is usually already installed on your Unix OS.
-
-You can use the following commands:
+ The bolierplate uses `make` library but it doesnt comes in with the boilerplae so you have to manually install it to your OS.
+ In my case I'm using windows, so you have to use choco to install 
+ `$ choco install make`
+ 
+  
 - `make run`:      executes the `index.ts`
 - `make test`:     runs the tests
 - `make format`:   formats all your files
@@ -20,12 +18,6 @@ You can use the following commands:
 
 ## Simple logger pre-configured
 
-In `src/log.ts` you can find a simple logger that is extendable.
-
 ## ToDo
 
-- Overall extend the project
-- Think about a better developer experience
-- Think about a better folder structure
-- Create a companion CLI tool
-- Probably more...
+- I will add more once Deno become more popular
