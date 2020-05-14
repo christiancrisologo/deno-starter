@@ -1,3 +1,7 @@
+serve:
+	deno run --importmap=import-map.json --unstable --allow-net ./src/serve.ts
+mabuhay: 
+	deno run -A ./src/mabuhay.ts mabuhay
 run:
 	deno run --config tsconfig.json index.ts
 test:
